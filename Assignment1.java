@@ -22,6 +22,7 @@ public class Assignment1 {
     }
     public static void main(String[] args) {
         Assignment1 in = new Assignment1();
+        
         protect();
         System.out.println("Area of square" + in.areaOfSquare(10));
         System.out.println("Area of rectangle" + in.areaOfRectangle(10, 9));
